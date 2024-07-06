@@ -1,3 +1,4 @@
 .env
 /src/products-bulk (1).json
 __pycache__/
+/src/entities/constants.py
