@@ -4,7 +4,6 @@ from abc import abstractmethod, ABC, abstractstaticmethod
 
 class BulkServicePort(ABC):
 
-    @staticmethod
     @abstractmethod
-    def bulk_index(data, index_name, base_dir, yep) -> str:
+    def bulk_index(self, data, index_name, base_dir) -> str:
         pass
